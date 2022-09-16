@@ -4,7 +4,7 @@ import express from "express";
 import mongoose from "mongoose"; 
 import router from "./routes/user-routes.js";
 // import blogRouter from "./routes/blog-routes";
-import blogRouter from "./routes/blog-routes"
+import blogRouter from "./routes/blog-routes.js"
 import cors from "cors";
 
 const app = express();
